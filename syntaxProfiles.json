@@ -1,0 +1,13 @@
+{
+    "javascript": {
+        "tag_case": "asis",
+        "attr_case": "asis",
+        "attr_quotes": "double",
+        "tag_nl": false,
+        "tag_nl_leaf": false,
+        "indent": false,
+        "inline_break": 0,
+        "self_closing_tag": false,
+        "filters": ""
+    }
+}
