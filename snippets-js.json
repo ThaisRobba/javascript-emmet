@@ -1,0 +1,43 @@
+{
+    "javascript": {
+        "snippets": {
+            "f": "function ${id}(${cursor}){\n\t${child}\n}",
+            "af": "var ${id} = function(${cursor}) {\n\t${child}\n};",
+            "mf": "${id}: function(${cursor}) {\n\t${child}\n},",
+            "fun": "function ${id}(${cursor}){\n\t${child}\n}",
+            "afun": "var ${id} = function(${cursor}) {\n\t${child}\n};",
+            "mfun": "${id}: function(${cursor}) {\n\t${child}\n},",
+            "iife": "(function() {\n\t\"use strict\";\n${cursor}\n}());",
+            "for": "for (var ${class} = 0; ${class} < ${id}; ${class}++) {\n\t${child}${cursor}\n}",
+            "forin": "for (${id} in $${class}) {\n${cursor}${child}\n}",
+            "fori": "for (${id} in $${class}) {\n${cursor}${child}\n}",
+            "foreach": "${id}.forEach(function(${cursor}){\n\t\n});",
+            "fore": "${id}.forEach(function(${cursor}){\n\t\n});",
+            "if": "if (${1:condition}) {\n\t${child}\n}",
+            "eif": "else if (${1:condition}) {\n\t${child}\n}",
+            "else": "else {\n\t${cursor}${child}\n}",
+            "ife": "if (${1:condition}) {\n\t${child}\n} else {\n\t\n}",
+            "while": "while (${1:condition}) {\n\t${child}\n}",
+            "switch": "switch (${1:expression}){\n${child}\ndefault:\n}",
+            "swi": "switch (${1:expression}){\n${child}\ndefault:\n}",
+            "case": "case (${1:expression}:\n${child}\nbreak;",
+            "log": "console.log(${child}${cursor});",
+            "req": "var ${id} = require(\"${child}${cursor}\");",
+            "t": "this.",
+            "v": "var ${id} = ${cursor}",
+            "proto": "prototype.",
+            "pro": "prototype.",
+            "strict": "\"use strict\";",
+
+            "add": "game.add.${id}(${cursor});",
+            "arcade": "game.physics.arcade.${id}();",
+            "asprite": "game.add.sprite(${1:x, y, 'key'});",
+            "load": "game.load.${id}(${cursor});",
+            "game": "var game = new Phaser.Game(${cursor});",
+            "key": "Phaser.Keyboard.${id}",
+            "timer": "game.time.events.${id}(${cursor});",
+            "cursors": "this.cursors = this.game.input.keyboard.createCursorKeys();",
+            "keycapture": "game.input.keyboard.addKeyCapture(${id});"
+        }
+    }
+}
