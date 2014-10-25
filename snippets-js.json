@@ -28,16 +28,6 @@
             "proto": "prototype.",
             "pro": "prototype.",
             "strict": "\"use strict\";",
-
-            "add": "game.add.${id}(${cursor});\n",
-            "arcade": "game.physics.arcade.${id}();\n",
-            "asprite": "game.add.sprite(${1:x, y, 'key'});\n",
-            "load": "game.load.${id}(${cursor});\n",
-            "game": "var game = new Phaser.Game(${cursor});\n",
-            "key": "Phaser.Keyboard.${id}",
-            "timer": "game.time.events.${id}(${cursor});\n",
-            "cursors": "this.cursors = this.game.input.keyboard.createCursorKeys();\n",
-            "keycapture": "game.input.keyboard.addKeyCapture(${id});\n"
         }
     }
 }
